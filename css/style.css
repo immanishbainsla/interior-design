@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300');
-
  body{
 	padding: 0;
 	margin: 0;
 }
-
 #body{
 	position: fixed;
 	display: flex;
 	flex-direction: row;
-  width: 100%;
-  height: 100%;
-  top:0;
-  left: 0;
+  	width: 100%;
+  	height: 100%;
+  	top:0;
+  	left: 0;
 }
-
 .left{
 	width: 20%;
 	float: left;
@@ -23,18 +20,16 @@
   	border-image-slice: 1;
 	height:100%;
 }
-
 #c-name{
-  margin-top: 90px;
-  width: 100%;
+  	margin-top: 90px;
+  	width: 100%;
 	color: white;
 	font-family: 'Poppins', sans-serif;
-  font-size: 5vw;
-  padding-left: 20%;
-  text-align: justify;
-  box-sizing: border-box;  
+	font-size: 5vw;
+	padding-left: 20%;
+	text-align: justify;
+	box-sizing: border-box;  
 }
-
 .left li a{
 	text-decoration: none;
 	color: white;
@@ -42,37 +37,31 @@
 	font-size: minmax(3vh, 3vw);
 	font-weight: bold;
 }
-
 ul{
 	list-style-type: none;
-  margin-top: 50px;
+	margin-top: 50px;
 }
-
 li{
-  width: 100%;
+  	width: 100%;
 }
-
 li a {
-  display: block;
-  width:100%;
-  padding-left: 5%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  box-sizing: border-box;  
+  	display: block;
+  	width:100%;
+  	padding-left: 5%;
+  	padding-top: 4%;
+  	padding-bottom: 4%;
+  	box-sizing: border-box;  
 }
-
 li a:hover {
-  background-color: white;
-  color: red;
+  	background-color: white;
+  	color: red;
 }
-
 #right{
-  overflow-y: scroll;
-  width: 80%;
-  height: 100%;
-  box-sizing: border-box;
+	overflow-y: scroll;
+	width: 80%;
+	height: 100%;
+	box-sizing: border-box;
 } 
-
 h1{
 	font-family: 'Poppins', sans-serif;
 	font-size: 62px;
@@ -81,7 +70,6 @@ h1{
 	padding-top: 80px;
 	padding-left: 45px;
 }
-
 h2{
 	font-family: 'Poppins', sans-serif;
 	font-size: 50px;
@@ -90,40 +78,34 @@ h2{
 	margin: 0;
 	padding-left: 45px;
 }
-
 .header{
 	padding: 0;
 	margin: 0;
 }
-
 #img-box{
 	width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  padding: 2%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	height: auto;
+	box-sizing: border-box;
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-
 .c1{
-  width: 50%;
-  display: felx;
-  height: auto;
-  box-sizing: border-box;
-  padding: 2%;
+  	width: 50%;
+  	display: felx;
+  	height: auto;
+  	box-sizing: border-box;
+  	padding: 2%;
 }
-
 .interior-img{
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
+  	width: 100%;
+  	height: 100%;
+  	opacity: 0.8;
 }
-
 .interior-img:hover{
-  opacity: 1;
+  	opacity: 1;
 }
-
 .ser{
 	font-family: 'Poppins', sans-serif;
 	font-size: 50px;
@@ -145,30 +127,26 @@ h2{
 	text-align: justify;
 	padding-left: 45px;
 	width: 100%;
-  float: left;
-  box-sizing: border-box;
+  	float: left;
+  	box-sizing: border-box;
 }
-
 #dbox{
 	width: 100%;
 	height: auto;
-  display: flex;
-  box-sizing: border-box;
-  justify-content: space-around;
-  padding: 2%;
+  	display: flex;
+  	box-sizing: border-box;
+  	justify-content: space-around;
+  	padding: 2%;
 }
-
 .c2{
 	width:30%;
 	height:auto;
 	background-color: #F5F4F4;
 }
-
 .d-box-img{
 	width: 100%;
 	height: auto;
 }
-
 .red-circle:not(#s-red-cir){
 	width: 55px;
 	height: 0px;
@@ -176,27 +154,23 @@ h2{
 	border-radius: 3px; 
 	margin-bottom: 30px;
 }
-
 .name{
 	font-family: 'Poppins', sans-serif;
 	font-size: 25px;
 	font-weight: lighter;
 	padding-left: 10px;
 }
-
 .pos{
 	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	color: gray;
 	padding-left: 10px;
 }
-
 .des{
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	padding-left: 10px;
 }
-
 #s-red-cir{
 	width: 60px;
 	height: 0px;
@@ -205,25 +179,22 @@ h2{
 	margin-left: 45px;
 	margin-bottom: 0px;
 }
-
 #dh{
 	font-family: 'Poppins', sans-serif;
 	font-size: 20px;
 	color: black;
 	font-weight: bold;
 	margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
+  	padding: 0;
+  	margin-bottom: 10px;
 	margin-top: 20px;
 }
-
 .paragraph{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  padding-right: 5%;
+  	padding: 0;
+  	margin: 0;
+  	box-sizing: border-box;
+  	padding-right: 5%;
 }
-
 #packages{
 	color: black;
 	font-family: 'Poppins', sans-serif;
@@ -233,10 +204,9 @@ h2{
 	text-align: justify;
 	padding-left: 45px;
 	width: 100%;
-  float: left;
-  box-sizing: border-box;
+  	float: left;
+  	box-sizing: border-box;
 }
-
 #price-box{
 	width: 100%;
 	height: auto;
@@ -246,7 +216,6 @@ h2{
 	box-sizing: border-box;
 	padding-right: 5%; 
 }
-
 .price-table{
 	width: 48%;
 	height: auto;
@@ -254,7 +223,6 @@ h2{
 	box-sizing: border-box;
 	background: #eee;
 }
-
 .type{
 	width: 100%;
 	background: #666;
@@ -263,48 +231,40 @@ h2{
 	font-size: 30px;
 	box-sizing: border-box;
 }
-
 ul.feature-list{
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
 	box-sizing: border-box;
 }
-
 ul.feature-list li{
 	width: 100%;
 	padding: 5%;
 	border-bottom: 1px solid #ccc;
 	box-sizing: border-box;
 }
-
 .money{
 	padding: 5%;
 	border-bottom: 1px solid #ccc;
 	box-sizing: border-box;
 }
-
 big{
 	font-weight: bold;
 	font-size: 26px;
 }
-
 .submit-button{
 	padding: 5%;
 }
-
 button{
 	border: none;
 	background: #fff;
 	font-size: 20px;
 	padding: 10px 15px;
 }
-
 button:hover{
 	color:white;
 	background: #000 !important; 
 }
-
 #contact{
 	width: 100%;
 	box-sizing: border-box;
@@ -315,12 +275,10 @@ button:hover{
 	font-size: 16px;
 	font-weight: bold;
 }
-
 input{
 	width: 100%;
 	height: 40px;
 }
-
 input[type="submit"]{
 	font-size: 20px;
 	height: 45px;
@@ -328,12 +286,10 @@ input[type="submit"]{
 	background: #fb3838;
 	color: white;
 }
-
 input[type="submit"]:hover{
 	color: white;
 	background: #999;
 }
-
 footer{
 	width: 100%;
 	box-sizing: border-box;
@@ -345,46 +301,34 @@ footer{
 	font-size: 16px;
 	float: left;
 }
-
 ::-webkit-scrollbar {
 	display: none;
 	}
-
-
 @media screen and (max-width: 1400px){
-
-	#c-name{
-		font-size: 25px;
-	}
-
+#c-name{
+	font-size: 25px;
 }
-
-
+}
 @media screen and (max-width: 833px){
-
 #body{
 	display: flex;
 	flex-direction: column;
 }
-
 .left{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	height: auto;
 }
-
 #right{
 	width: 100%;
 }
-
 #c-name{
 	padding: 0;
 	margin: 0;
 	float: left;
 	width: 30%;
 }
-
 .left ul{
 	padding: 0;
 	margin: 0;
@@ -392,13 +336,11 @@ footer{
 	width: 70%;
 	overflow-x: auto; 
 }
-
 .left li{
 	padding: 0;
 	margin: 0;
 	display: inline;
 }
-
 .left li a{
 	padding: 0;
 	margin: 0;
@@ -407,72 +349,56 @@ footer{
 	width: auto;
 	font-size: minmax(5vw, 5vh);
 }
-	
 }
-
-
-
 @media screen and (max-width: 520px){
-
-		.left{
-			height: auto;
-      min-height: 65px;
-		}
-
-		#right{
-			width: 100%;
-		}
-
-		#c-name{
-			padding: 0;
-			margin: 0;
-			float: left;
-			width: 35%;
-		}
-		
-		h1{
-			padding-top: 20px;
-		}
-
-		.left ul{
-			padding: 0;
-			margin: 0;
-			float: right;
-			width: 70%;
-			overflow-x: auto; 
-		}
-
-		.c1{
-			width: 100%;
-			padding: 20px 10%;
-		}
-
-		#dbox{
-			flex-direction: column;
-		}
-		.c2{
-			width: 100%;
-			margin-bottom: 20px;
-			padding: 5% 13%;
-			box-sizing: border-box;
-		}
-
-		.price-table{
-			flex-direction: column;
-			width: 100%;
-			margin-top: 20px; 
-		}
-
-		#contact .red-circle{
-		}
-
-		#contact{
-			padding: 0 13%;
-			margin-bottom: 20px;
-		}
-
-		.paragraph{
-			padding-right: 10%;
-		}
-
+.left{
+	height: auto;
+      	min-height: 65px;
+}
+#right{
+	width: 100%;
+}
+#c-name{
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 35%;
+}
+h1{
+	padding-top: 20px;
+}
+.left ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	width: 70%;
+	overflow-x: auto; 
+}
+.c1{
+	width: 100%;		
+	padding: 20px 10%;
+}
+#dbox{
+	flex-direction: column;
+}
+.c2{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 5% 13%;
+	box-sizing: border-box;
+}
+.price-table{
+	flex-direction: column;
+	width: 100%;
+	margin-top: 20px; 
+}
+#contact .red-circle{
+}
+#contact{
+	padding: 0 13%;
+	margin-bottom: 20px;
+}
+.paragraph{
+	padding-right: 10%;
+}
 }
